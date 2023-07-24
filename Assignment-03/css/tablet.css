@@ -1,0 +1,32 @@
+@media screen and (max-width: 992px) {
+  .item-certificate {
+    grid-template-columns: 100%;
+  }
+  .item-certificate:nth-child(odd) {
+    padding-right: 15px;
+  }
+  .item-certificate .info-text {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .list-certificate {
+    gap: 0;
+  }
+  /* responsive procject */
+  .item-timeline.item-project-page .list-content-item .icon,
+  .item-team.item-project-page .list-content-item .icon,
+  .item-project-page .list-content-item .icon {
+    width: 100%;
+  }
+  .list-content-item .item {
+    flex-direction: column;
+  }
+  .item-project-page .list-content-item .icon i {
+    font-size: 35px;
+  }
+  .number-timeline {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+}
